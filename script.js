@@ -3,7 +3,7 @@ let windowss = window.open()
 let check = 0
 let contentfirstcheck = "Please Go To Vaild Program"
 let contentsecondcheck = `<html>
-<head><title>WildCard Collector</title></head>
+<head><title>WildCard Collector | Made With Love By Sho3la ❤</title></head>
 <body>please go to <a href="https://hackerone.com/${window.location.pathname.split('/')[1]}/policy_scopes">https://hackerone.com/${window.location.pathname.split('/')[1]}/policy_scopes</a> Then Try The Script</body>
 <style>:root {
     color-scheme: dark;
@@ -37,7 +37,7 @@ if (check == 1) {
     windowss.document.write(`${contentsecondcheck}`)
 } else if (check == 0) {
     windowss.document.write(`<html>
-<head><title>WildCard Collector</title></head>
+<head><title>WildCard Collector | Made With Love By Sho3la ❤</title></head>
 <body>${array.map((e) => `${e} <br>` ).join("")}
 </body>
 <style>:root {
@@ -47,7 +47,7 @@ if (check == 1) {
 </html>`)
 } else if (check == 2) {
     windowss.document.write(`<html>
-<head><title>WildCard Collector</title></head>
+<head><title>WildCard Collector | Made With Love By Sho3la ❤</title></head>
 <body>${contentfirstcheck}
 </body>
 <style>:root {
@@ -57,7 +57,7 @@ if (check == 1) {
 </html>`)
 } else if(check == 3 ) {
         windowss.document.write(`<html>
-<head><title>WildCard Collector</title></head>
+<head><title>WildCard Collector | Made With Love By Sho3la ❤</title></head>
 <body>There Is No WildCard In This Program
 </body>
 <style>:root {
